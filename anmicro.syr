@@ -1,0 +1,480 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> 
+Reading design: anmicro.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "anmicro.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "anmicro"
+Output Format                      : NGC
+Target Device                      : xc3s50-5-pq208
+
+---- Source Options
+Top Module Name                    : anmicro
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/alekz/Descargas/EjerciciosExposiciones/Jerarquico1.vhd" in Library work.
+Compiling vhdl file "/home/alekz/Descargas/EjerciciosExposiciones/ALU.vhd" in Library work.
+Architecture behavioral of Entity alu4 is up to date.
+Compiling vhdl file "/home/alekz/Descargas/Parte Adrian/rega5.vhd" in Library work.
+Architecture impedancia of Entity rega5 is up to date.
+Compiling vhdl file "/home/alekz/Descargas/Parte Adrian/regb5.vhd" in Library work.
+Architecture impedancia of Entity regb5 is up to date.
+Compiling vhdl file "/home/alekz/Descargas/Parte Adrian/sel_dato.vhd" in Library work.
+Architecture arq_sel_dato of Entity sel_dato is up to date.
+Compiling vhdl file "/home/alekz/Descargas/Parte Adrian/tri_esr.vhd" in Library work.
+Architecture arq_tri of Entity tri_esr is up to date.
+Compiling vhdl file "/home/alekz/Descargas/EjerciciosExposiciones/pc.vhd" in Library work.
+Architecture arq_pc of Entity pc is up to date.
+Compiling vhdl file "/home/alekz/Descargas/Parte Adrian/indice.vhd" in Library work.
+Architecture arq_indice of Entity indice is up to date.
+Compiling vhdl file "/home/alekz/Descargas/Parte Adrian/stack.vhd" in Library work.
+Architecture arq_stack of Entity stack is up to date.
+Compiling vhdl file "/home/alekz/Descargas/Parte Adrian/sel_dir.vhd" in Library work.
+Architecture arq_sel_dir of Entity sel_dir is up to date.
+Compiling vhdl file "/home/alekz/Descargas/Parte Adrian/dir_var.vhd" in Library work.
+Architecture arq_dir_var of Entity dir_var is up to date.
+Compiling vhdl file "/home/alekz/Descargas/EjerciciosExposiciones/Control.vhd" in Library work.
+Architecture arq_control of Entity control is up to date.
+Compiling vhdl file "/home/alekz/Descargas/EjerciciosExposiciones/Jerarquico.vhd" in Library work.
+Architecture arq_anmicro of Entity anmicro is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <anmicro> in library <work> (architecture <arq_anmicro>).
+
+Analyzing hierarchy for entity <alu4> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <rega5> in library <work> (architecture <impedancia>).
+
+Analyzing hierarchy for entity <regb5> in library <work> (architecture <impedancia>).
+
+Analyzing hierarchy for entity <sel_dato> in library <work> (architecture <arq_sel_dato>).
+
+Analyzing hierarchy for entity <tri_esr> in library <work> (architecture <arq_tri>).
+
+Analyzing hierarchy for entity <pc> in library <work> (architecture <arq_pc>).
+
+Analyzing hierarchy for entity <indice> in library <work> (architecture <arq_indice>).
+
+Analyzing hierarchy for entity <stack> in library <work> (architecture <arq_stack>).
+
+Analyzing hierarchy for entity <sel_dir> in library <work> (architecture <arq_sel_dir>).
+
+Analyzing hierarchy for entity <dir_var> in library <work> (architecture <arq_dir_var>).
+
+Analyzing hierarchy for entity <control> in library <work> (architecture <arq_control>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <anmicro> in library <work> (Architecture <arq_anmicro>).
+Entity <anmicro> analyzed. Unit <anmicro> generated.
+
+Analyzing Entity <alu4> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "/home/alekz/Descargas/EjerciciosExposiciones/ALU.vhd" line 43: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <c1>, <operacion>
+Entity <alu4> analyzed. Unit <alu4> generated.
+
+Analyzing Entity <rega5> in library <work> (Architecture <impedancia>).
+Entity <rega5> analyzed. Unit <rega5> generated.
+
+Analyzing Entity <regb5> in library <work> (Architecture <impedancia>).
+Entity <regb5> analyzed. Unit <regb5> generated.
+
+Analyzing Entity <sel_dato> in library <work> (Architecture <arq_sel_dato>).
+Entity <sel_dato> analyzed. Unit <sel_dato> generated.
+
+Analyzing Entity <tri_esr> in library <work> (Architecture <arq_tri>).
+Entity <tri_esr> analyzed. Unit <tri_esr> generated.
+
+Analyzing Entity <pc> in library <work> (Architecture <arq_pc>).
+Entity <pc> analyzed. Unit <pc> generated.
+
+Analyzing Entity <indice> in library <work> (Architecture <arq_indice>).
+Entity <indice> analyzed. Unit <indice> generated.
+
+Analyzing Entity <stack> in library <work> (Architecture <arq_stack>).
+Entity <stack> analyzed. Unit <stack> generated.
+
+Analyzing Entity <sel_dir> in library <work> (Architecture <arq_sel_dir>).
+Entity <sel_dir> analyzed. Unit <sel_dir> generated.
+
+Analyzing Entity <dir_var> in library <work> (Architecture <arq_dir_var>).
+Entity <dir_var> analyzed. Unit <dir_var> generated.
+
+Analyzing Entity <control> in library <work> (Architecture <arq_control>).
+WARNING:Xst:819 - "/home/alekz/Descargas/EjerciciosExposiciones/Control.vhd" line 48: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <datoin>, <rc>, <pcout>
+INFO:Xst:2679 - Register <f<3>> in unit <control> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <f<4>> in unit <control> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <f<5>> in unit <control> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <f<6>> in unit <control> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <f<7>> in unit <control> has a constant value of 0 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <pcontrol$mux0000> in unit <control> has a constant value of 10000000 during circuit operation. The register is replaced by logic.
+Entity <control> analyzed. Unit <control> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <alu4>.
+    Related source file is "/home/alekz/Descargas/EjerciciosExposiciones/ALU.vhd".
+    Found 4-bit register for signal <operacion>.
+    Found 1-bit xor2 for signal <rc<3>>.
+    Found 2-bit register for signal <c1>.
+    Found 1-bit xor2 for signal <c1_0$xor0000> created at line 49.
+    Found 1-bit xor2 for signal <c1_1$xor0000> created at line 50.
+    Found 1-bit register for signal <Cout>.
+    Found 4-bit comparator greatequal for signal <Cout$cmp_ge0000> created at line 53.
+    Found 1-bit xor2 for signal <Cout$xor0000> created at line 51.
+    Found 4-bit addsub for signal <operacion$addsub0000>.
+    Found 4-bit xor2 for signal <operacion$xor0000> created at line 69.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <alu4> synthesized.
+
+
+Synthesizing Unit <rega5>.
+    Related source file is "/home/alekz/Descargas/Parte Adrian/rega5.vhd".
+    Found 4-bit register for signal <a>.
+    Found 4-bit register for signal <ares>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <rega5> synthesized.
+
+
+Synthesizing Unit <regb5>.
+    Related source file is "/home/alekz/Descargas/Parte Adrian/regb5.vhd".
+    Found 4-bit register for signal <b>.
+    Found 4-bit register for signal <bres>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <regb5> synthesized.
+
+
+Synthesizing Unit <sel_dato>.
+    Related source file is "/home/alekz/Descargas/Parte Adrian/sel_dato.vhd".
+    Found 4-bit register for signal <datout>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <sel_dato> synthesized.
+
+
+Synthesizing Unit <tri_esr>.
+    Related source file is "/home/alekz/Descargas/Parte Adrian/tri_esr.vhd".
+    Found 4-bit tristate buffer for signal <datout>.
+    Found 4-bit register for signal <Mtridata_datout> created at line 24.
+    Found 1-bit register for signal <Mtrien_datout> created at line 24.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+	inferred   4 Tristate(s).
+Unit <tri_esr> synthesized.
+
+
+Synthesizing Unit <pc>.
+    Related source file is "/home/alekz/Descargas/EjerciciosExposiciones/pc.vhd".
+    Found 8-bit register for signal <pcout>.
+    Found 8-bit adder for signal <pcout$addsub0000> created at line 42.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <pc> synthesized.
+
+
+Synthesizing Unit <indice>.
+    Related source file is "/home/alekz/Descargas/Parte Adrian/indice.vhd".
+    Found 8-bit register for signal <ix>.
+    Found 8-bit adder for signal <ix$addsub0000> created at line 29.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <indice> synthesized.
+
+
+Synthesizing Unit <stack>.
+    Related source file is "/home/alekz/Descargas/Parte Adrian/stack.vhd".
+    Found 8-bit register for signal <pila>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <stack> synthesized.
+
+
+Synthesizing Unit <sel_dir>.
+    Related source file is "/home/alekz/Descargas/Parte Adrian/sel_dir.vhd".
+    Found 8-bit register for signal <direccion>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <sel_dir> synthesized.
+
+
+Synthesizing Unit <dir_var>.
+    Related source file is "/home/alekz/Descargas/Parte Adrian/dir_var.vhd".
+WARNING:Xst:647 - Input <cs<4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <dir_var> synthesized.
+
+
+Synthesizing Unit <control>.
+    Related source file is "/home/alekz/Descargas/EjerciciosExposiciones/Control.vhd".
+WARNING:Xst:737 - Found 1-bit latch for signal <f_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <f_1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <f_2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Using one-hot encoding for signal <edo_presente>.
+    Found 4x18-bit ROM for signal <edo_futuro$mux0021>.
+WARNING:Xst:737 - Found 5-bit latch for signal <cs>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 18-bit latch for signal <edo_futuro>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <pcontrol_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <pcontrol_1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <pcontrol_2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <pcontrol_3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <pcontrol_4>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <rw>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <pcontrol_5>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <pcontrol_6>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <pcontrol_7>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 18-bit register for signal <edo_presente>.
+    Found 8-bit adder for signal <pcontrol$add0000> created at line 217.
+    Found 8-bit subtractor for signal <pcontrol$sub0000> created at line 219.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  18 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <control> synthesized.
+
+
+Synthesizing Unit <anmicro>.
+    Related source file is "/home/alekz/Descargas/EjerciciosExposiciones/Jerarquico.vhd".
+WARNING:Xst:653 - Signal <reset> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <datoin> is used but never assigned. This sourceless signal will be automatically connected to value 0000.
+Unit <anmicro> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 4x18-bit ROM                                          : 1
+# Adders/Subtractors                                   : 5
+ 4-bit addsub                                          : 1
+ 8-bit adder                                           : 3
+ 8-bit subtractor                                      : 1
+# Registers                                            : 16
+ 1-bit register                                        : 4
+ 18-bit register                                       : 1
+ 4-bit register                                        : 7
+ 8-bit register                                        : 4
+# Latches                                              : 14
+ 1-bit latch                                           : 12
+ 18-bit latch                                          : 1
+ 5-bit latch                                           : 1
+# Comparators                                          : 1
+ 4-bit comparator greatequal                           : 1
+# Tristates                                            : 1
+ 4-bit tristate buffer                                 : 1
+# Xors                                                 : 5
+ 1-bit xor2                                            : 4
+ 4-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <f_0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <f_1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <f_2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <0>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <1>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <2>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <3>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <4>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <5>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <6>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <7>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <8>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <9>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <10>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <11>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <12>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <13>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <14>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <15>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <16>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <17>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 4x18-bit ROM                                          : 1
+# Adders/Subtractors                                   : 5
+ 4-bit addsub                                          : 1
+ 8-bit adder                                           : 3
+ 8-bit subtractor                                      : 1
+# Registers                                            : 82
+ Flip-Flops                                            : 82
+# Latches                                              : 14
+ 1-bit latch                                           : 12
+ 18-bit latch                                          : 1
+ 5-bit latch                                           : 1
+# Comparators                                          : 1
+ 4-bit comparator greatequal                           : 1
+# Xors                                                 : 5
+ 1-bit xor2                                            : 4
+ 4-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+ERROR:Xst:528 - Multi-source in Unit <anmicro> on signal <datout<3>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <u4/datout_3>
+   Output signal of BUFT instance <u5/datout_Mtridata_datout_3>
+
+ERROR:Xst:528 - Multi-source in Unit <anmicro> on signal <datout<2>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <u4/datout_2>
+   Output signal of BUFT instance <u5/datout_Mtridata_datout_2>
+
+ERROR:Xst:528 - Multi-source in Unit <anmicro> on signal <datout<1>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <u4/datout_1>
+   Output signal of BUFT instance <u5/datout_Mtridata_datout_1>
+
+ERROR:Xst:528 - Multi-source in Unit <anmicro> on signal <datout<0>>; this signal is connected to multiple drivers.
+Drivers are: 
+   Output signal of FD instance <u4/datout_0>
+   Output signal of BUFT instance <u5/datout_Mtridata_datout_0>
+
+
+Total REAL time to Xst completion: 21.00 secs
+Total CPU time to Xst completion: 21.12 secs
+ 
+--> 
+
+
+Total memory usage is 520680 kilobytes
+
+Number of errors   :    4 (   0 filtered)
+Number of warnings :   40 (   0 filtered)
+Number of infos    :   18 (   0 filtered)
+

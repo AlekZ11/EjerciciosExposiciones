@@ -1,0 +1,70 @@
+V3 60
+FL /home/alekz/Descargas/EjerciciosExposiciones/ALU.vhd 2022/07/28.15:25:03 P.20131013
+EN work/alu4 1659538137 FL /home/alekz/Descargas/EjerciciosExposiciones/ALU.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/alu4/Behavioral 1659538138 \
+      FL /home/alekz/Descargas/EjerciciosExposiciones/ALU.vhd EN work/alu4 1659538137
+FL /home/alekz/Descargas/EjerciciosExposiciones/Control.vhd 2022/08/02.23:00:09 P.20131013
+EN work/control 1659538157 \
+      FL /home/alekz/Descargas/EjerciciosExposiciones/Control.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/control/arq_control 1659538158 \
+      FL /home/alekz/Descargas/EjerciciosExposiciones/Control.vhd EN work/control 1659538157
+FL /home/alekz/Descargas/EjerciciosExposiciones/Jerarquico.vhd 2022/07/28.15:53:15 P.20131013
+EN work/anmicro 1659538159 \
+      FL /home/alekz/Descargas/EjerciciosExposiciones/Jerarquico.vhd \
+      PB ieee/std_logic_1164 1381692176 PH work/cmicro 1659538136
+AR work/anmicro/arq_anmicro 1659538160 \
+      FL /home/alekz/Descargas/EjerciciosExposiciones/Jerarquico.vhd \
+      EN work/anmicro 1659538159 CP alu4 CP rega5 CP regb5 CP sel_dato CP tri_esr \
+      CP pc CP indice CP stack CP sel_dir CP dir_var CP control
+FL /home/alekz/Descargas/EjerciciosExposiciones/Jerarquico1.vhd 2022/07/28.15:53:04 P.20131013
+PH work/cmicro 1659538136 \
+      FL /home/alekz/Descargas/EjerciciosExposiciones/Jerarquico1.vhd \
+      PB ieee/std_logic_1164 1381692176 CD alu4 CD rega5 CD regb5 CD sel_dato \
+      CD tri_esr CD pc CD stack CD indice CD sel_dir CD dir_var CD control
+FL /home/alekz/Descargas/EjerciciosExposiciones/pc.vhd 2022/07/28.15:24:23 P.20131013
+EN work/pc 1659538147 FL /home/alekz/Descargas/EjerciciosExposiciones/pc.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/pc/arq_pc 1659538148 \
+      FL /home/alekz/Descargas/EjerciciosExposiciones/pc.vhd EN work/pc 1659538147
+FL "/home/alekz/Descargas/Parte Adrian/dir_var.vhd" 2022/07/28.15:25:47 P.20131013
+EN work/dir_var 1659538155 FL "/home/alekz/Descargas/Parte Adrian/dir_var.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/dir_var/arq_dir_var 1659538156 \
+      FL "/home/alekz/Descargas/Parte Adrian/dir_var.vhd" EN work/dir_var 1659538155
+FL "/home/alekz/Descargas/Parte Adrian/indice.vhd" 2022/07/27.21:05:32 P.20131013
+EN work/indice 1659538149 FL "/home/alekz/Descargas/Parte Adrian/indice.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/indice/arq_indice 1659538150 \
+      FL "/home/alekz/Descargas/Parte Adrian/indice.vhd" EN work/indice 1659538149
+FL "/home/alekz/Descargas/Parte Adrian/rega5.vhd" 2022/07/27.21:13:05 P.20131013
+EN work/rega5 1659538139 FL "/home/alekz/Descargas/Parte Adrian/rega5.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/rega5/impedancia 1659538140 \
+      FL "/home/alekz/Descargas/Parte Adrian/rega5.vhd" EN work/rega5 1659538139
+FL "/home/alekz/Descargas/Parte Adrian/regb5.vhd" 2022/08/02.22:41:55 P.20131013
+EN work/regb5 1659538141 FL "/home/alekz/Descargas/Parte Adrian/regb5.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/regb5/impedancia 1659538142 \
+      FL "/home/alekz/Descargas/Parte Adrian/regb5.vhd" EN work/regb5 1659538141
+FL "/home/alekz/Descargas/Parte Adrian/sel_dato.vhd" 2022/07/27.21:22:30 P.20131013
+EN work/sel_dato 1659538143 FL "/home/alekz/Descargas/Parte Adrian/sel_dato.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/sel_dato/arq_sel_dato 1659538144 \
+      FL "/home/alekz/Descargas/Parte Adrian/sel_dato.vhd" EN work/sel_dato 1659538143
+FL "/home/alekz/Descargas/Parte Adrian/sel_dir.vhd" 2022/07/27.21:35:38 P.20131013
+EN work/sel_dir 1659538153 FL "/home/alekz/Descargas/Parte Adrian/sel_dir.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/sel_dir/arq_sel_dir 1659538154 \
+      FL "/home/alekz/Descargas/Parte Adrian/sel_dir.vhd" EN work/sel_dir 1659538153
+FL "/home/alekz/Descargas/Parte Adrian/stack.vhd" 2022/07/27.21:11:40 P.20131013
+EN work/stack 1659538151 FL "/home/alekz/Descargas/Parte Adrian/stack.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/stack/arq_stack 1659538152 \
+      FL "/home/alekz/Descargas/Parte Adrian/stack.vhd" EN work/stack 1659538151
+FL "/home/alekz/Descargas/Parte Adrian/tri_esr.vhd" 2022/07/28.15:52:33 P.20131013
+EN work/tri_esr 1659538145 FL "/home/alekz/Descargas/Parte Adrian/tri_esr.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/tri_esr/arq_tri 1659538146 \
+      FL "/home/alekz/Descargas/Parte Adrian/tri_esr.vhd" EN work/tri_esr 1659538145

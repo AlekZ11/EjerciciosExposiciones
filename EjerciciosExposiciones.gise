@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="EjerciciosExposiciones.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_Acumulador_A_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_UnidadControl_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_UnidadControl_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TB_UnidadControl_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="anmicro.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="anmicro.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="anmicro.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="anmicro.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="anmicro.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="anmicro.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="anmicro.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="anmicro_envsettings.html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="anmicro_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="anmicro_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="anmicro_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="anmicro_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="control_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dir_var.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="dir_var.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="dir_var.xst"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1659041410" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1659041410">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1659499411" xil_pn:in_ck="-3350537159529179134" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1659499411">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../Parte Adrian/dir_var.vhd"/>
+      <outfile xil_pn:name="../Parte Adrian/indice.vhd"/>
+      <outfile xil_pn:name="../Parte Adrian/rega5.vhd"/>
+      <outfile xil_pn:name="../Parte Adrian/regb5.vhd"/>
+      <outfile xil_pn:name="../Parte Adrian/sel_dato.vhd"/>
+      <outfile xil_pn:name="../Parte Adrian/sel_dir.vhd"/>
+      <outfile xil_pn:name="../Parte Adrian/stack.vhd"/>
+      <outfile xil_pn:name="../Parte Adrian/tri_esr.vhd"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="Control.vhd"/>
+      <outfile xil_pn:name="Jerarquico.vhd"/>
+      <outfile xil_pn:name="Jerarquico1.vhd"/>
+      <outfile xil_pn:name="TB_AcumuladorA.vhd"/>
+      <outfile xil_pn:name="TB_AcumuladorB.vhd"/>
+      <outfile xil_pn:name="TB_UnidadControl.vhd"/>
+      <outfile xil_pn:name="pc.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1659498822" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7106088131369011509" xil_pn:start_ts="1659498822">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1659498822" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2341770466342366339" xil_pn:start_ts="1659498822">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1659041515" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="5673761619254450285" xil_pn:start_ts="1659041515">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1659499412" xil_pn:in_ck="-3350537159529179134" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1659499411">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../Parte Adrian/dir_var.vhd"/>
+      <outfile xil_pn:name="../Parte Adrian/indice.vhd"/>
+      <outfile xil_pn:name="../Parte Adrian/rega5.vhd"/>
+      <outfile xil_pn:name="../Parte Adrian/regb5.vhd"/>
+      <outfile xil_pn:name="../Parte Adrian/sel_dato.vhd"/>
+      <outfile xil_pn:name="../Parte Adrian/sel_dir.vhd"/>
+      <outfile xil_pn:name="../Parte Adrian/stack.vhd"/>
+      <outfile xil_pn:name="../Parte Adrian/tri_esr.vhd"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="Control.vhd"/>
+      <outfile xil_pn:name="Jerarquico.vhd"/>
+      <outfile xil_pn:name="Jerarquico1.vhd"/>
+      <outfile xil_pn:name="TB_AcumuladorA.vhd"/>
+      <outfile xil_pn:name="TB_AcumuladorB.vhd"/>
+      <outfile xil_pn:name="TB_UnidadControl.vhd"/>
+      <outfile xil_pn:name="pc.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1659536771" xil_pn:in_ck="-3350537159529179134" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8157390593111606711" xil_pn:start_ts="1659536767">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TB_UnidadControl_beh.prj"/>
+      <outfile xil_pn:name="TB_UnidadControl_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1659536772" xil_pn:in_ck="5229381803228929075" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7786544488858364372" xil_pn:start_ts="1659536771">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TB_UnidadControl_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1659041326" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1659041326">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1659041326" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="9188907586150950397" xil_pn:start_ts="1659041326">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1659041326" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="5673761619254450285" xil_pn:start_ts="1659041326">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1659041326" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1659041326">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1659041326" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-8837458601694544827" xil_pn:start_ts="1659041326">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1659041326" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="4779560239316253549" xil_pn:start_ts="1659041326">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1659041326" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-4276349168938434825" xil_pn:start_ts="1659041326">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1659538157" xil_pn:in_ck="-6959818143978673568" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="8851672133355217421" xil_pn:start_ts="1659538129">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="anmicro.lso"/>
+      <outfile xil_pn:name="anmicro.ngr"/>
+      <outfile xil_pn:name="anmicro.prj"/>
+      <outfile xil_pn:name="anmicro.syr"/>
+      <outfile xil_pn:name="anmicro.xst"/>
+      <outfile xil_pn:name="anmicro_stx_beh.prj"/>
+      <outfile xil_pn:name="anmicro_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1659041329" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="2013657518627775344" xil_pn:start_ts="1659041329">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:name="TRAN_postSynthesisSimModel">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+  </transforms>
+
+</generated_project>

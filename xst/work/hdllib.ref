@@ -1,0 +1,28 @@
+AR sel_dir arq_sel_dir "/home/alekz/Descargas/Parte Adrian/sel_dir.vhd" sub00/vhpl22 1659538154
+EN dir_var NULL "/home/alekz/Descargas/Parte Adrian/dir_var.vhd" sub00/vhpl23 1659538155
+AR regb5 impedancia "/home/alekz/Descargas/Parte Adrian/regb5.vhd" sub00/vhpl10 1659538142
+EN alu4 NULL /home/alekz/Descargas/EjerciciosExposiciones/ALU.vhd sub00/vhpl05 1659538137
+EN sel_dir NULL "/home/alekz/Descargas/Parte Adrian/sel_dir.vhd" sub00/vhpl21 1659538153
+AR indice arq_indice "/home/alekz/Descargas/Parte Adrian/indice.vhd" sub00/vhpl18 1659538150
+EN stack NULL "/home/alekz/Descargas/Parte Adrian/stack.vhd" sub00/vhpl19 1659538151
+EN sel_dato NULL "/home/alekz/Descargas/Parte Adrian/sel_dato.vhd" sub00/vhpl11 1659538143
+EN tri_esr NULL "/home/alekz/Descargas/Parte Adrian/tri_esr.vhd" sub00/vhpl13 1659538145
+PH cmicro NULL /home/alekz/Descargas/EjerciciosExposiciones/Jerarquico1.vhd sub00/vhpl26 1659538136
+AR dir_var arq_dir_var "/home/alekz/Descargas/Parte Adrian/dir_var.vhd" sub00/vhpl24 1659538156
+EN anmicro NULL /home/alekz/Descargas/EjerciciosExposiciones/Jerarquico.vhd sub00/vhpl25 1659538159
+EN pc NULL /home/alekz/Descargas/EjerciciosExposiciones/pc.vhd sub00/vhpl15 1659538147
+AR pc arq_pc /home/alekz/Descargas/EjerciciosExposiciones/pc.vhd sub00/vhpl16 1659538148
+AR sel_dato arq_sel_dato "/home/alekz/Descargas/Parte Adrian/sel_dato.vhd" sub00/vhpl12 1659538144
+AR stack arq_stack "/home/alekz/Descargas/Parte Adrian/stack.vhd" sub00/vhpl20 1659538152
+AR control arq_eontrol /home/alekz/Descargas/EjerciciosExposiciones/Control.vhd sub00/vhpl03 1658892646
+EN rega5 NULL "/home/alekz/Descargas/Parte Adrian/rega5.vhd" sub00/vhpl07 1659538139
+EN control NULL /home/alekz/Descargas/EjerciciosExposiciones/Control.vhd sub00/vhpl02 1659538157
+EN regb5 NULL "/home/alekz/Descargas/Parte Adrian/regb5.vhd" sub00/vhpl09 1659538141
+AR rega5 impedancia "/home/alekz/Descargas/Parte Adrian/rega5.vhd" sub00/vhpl08 1659538140
+AR control arq_control /home/alekz/Descargas/EjerciciosExposiciones/Control.vhd sub00/vhpl04 1659538158
+AR alu behavioral /home/alekz/Descargas/EjerciciosExposiciones/ALU.vhd sub00/vhpl01 1658890208
+AR tri_esr arq_tri "/home/alekz/Descargas/Parte Adrian/tri_esr.vhd" sub00/vhpl14 1659538146
+EN indice NULL "/home/alekz/Descargas/Parte Adrian/indice.vhd" sub00/vhpl17 1659538149
+AR alu4 behavioral /home/alekz/Descargas/EjerciciosExposiciones/ALU.vhd sub00/vhpl06 1659538138
+AR anmicro arq_anmicro /home/alekz/Descargas/EjerciciosExposiciones/Jerarquico.vhd sub00/vhpl27 1659538160
+EN alu NULL /home/alekz/Descargas/EjerciciosExposiciones/ALU.vhd sub00/vhpl00 1658890207

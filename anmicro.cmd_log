@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/home/alekz/Descargas/EjerciciosExposiciones/anmicro.xst" -ofn "/home/alekz/Descargas/EjerciciosExposiciones/anmicro.syr" 
+xst -intstyle ise -ifn "/home/alekz/Descargas/EjerciciosExposiciones/anmicro.xst" -ofn "/home/alekz/Descargas/EjerciciosExposiciones/anmicro.syr" 
+xst -intstyle ise -ifn "/home/alekz/Descargas/EjerciciosExposiciones/anmicro.xst" -ofn "/home/alekz/Descargas/EjerciciosExposiciones/anmicro.syr" 
+xst -intstyle ise -ifn "/home/alekz/Descargas/EjerciciosExposiciones/anmicro.xst" -ofn "/home/alekz/Descargas/EjerciciosExposiciones/anmicro.syr" 
